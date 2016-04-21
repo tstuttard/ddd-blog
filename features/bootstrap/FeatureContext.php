@@ -22,5 +22,13 @@ class FeatureContext extends Behat\MinkExtension\Context\MinkContext implements 
     {
     }
 
+    /**
+     * @Given /^I click save$/
+     */
+    public function iClickSave()
+    {
+        throw new PendingException();
+    }
+
 
 }
