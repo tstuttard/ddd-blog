@@ -3,17 +3,14 @@
  * Created by PhpStorm.
  * User: tomes
  * Date: 4/23/2016
- * Time: 4:53 PM
+ * Time: 4:53 PM.
  */
-
 namespace Command;
-
 
 use Broadway\CommandHandling\CommandHandler;
 
 /**
- * Class CreatePostCommandHandler
- * @package Command
+ * Class CreatePostCommandHandler.
  */
 class CreatePostCommandHandler extends CommandHandler
 {
@@ -25,5 +22,4 @@ class CreatePostCommandHandler extends CommandHandler
         echo $createPostCommand->getTitle();
         echo $createPostCommand->getContent();
     }
-
 }

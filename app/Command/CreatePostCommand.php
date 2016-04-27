@@ -3,15 +3,12 @@
  * Created by PhpStorm.
  * User: tomes
  * Date: 4/23/2016
- * Time: 3:29 PM
+ * Time: 3:29 PM.
  */
-
 namespace Command;
 
-
 /**
- * Class CreatePostCommand
- * @package Command
+ * Class CreatePostCommand.
  */
 class CreatePostCommand
 {
@@ -26,6 +23,7 @@ class CreatePostCommand
 
     /**
      * CreatePostCommand constructor.
+     *
      * @param $title
      * @param $content
      */
@@ -50,5 +48,4 @@ class CreatePostCommand
     {
         return $this->content;
     }
-
 }
