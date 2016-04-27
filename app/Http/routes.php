@@ -11,6 +11,13 @@
 |
 */
 
+Route::get('/test-command', 'Controller@testCommand');
+
+Route::group(['as' => 'post', 'prefix' => 'post'], function () {
+    Route::get('create', 'PostController@create');
+    Route::get('store', 'PostController@store');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
