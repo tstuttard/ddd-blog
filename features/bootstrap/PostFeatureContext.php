@@ -5,7 +5,6 @@ use Behat\Behat\Context\SnippetAcceptingContext;
 
 class PostFeatureContext extends FeatureContext implements Context, SnippetAcceptingContext
 {
-
     /**
      * @When I fill in the blog title with :arg1
      */
